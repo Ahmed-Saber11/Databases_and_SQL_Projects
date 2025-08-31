@@ -2,8 +2,6 @@
 select CustomerID
 from Sales.Customer
 where ModifiedDate > '2019-1-1'
---Note only 2014 in table
-
 -------------------------------------------------------------------
 --2. List all products with their category and subcategory names.
 select p.Name as productName,s.Name as Subcategory,c.Name as Category
@@ -225,4 +223,5 @@ select * from VS2
 
 
 ---------------------------DONE---------------------------------------
+
 
